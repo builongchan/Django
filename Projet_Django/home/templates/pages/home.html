@@ -1,0 +1,33 @@
+{% extends "pages/base.html" %}
+
+{% block title %}
+Group5
+{% endblock %}
+
+{% block content %}
+<h1>Xin Chào</h1>
+Đây là app home  
+<h2> Group5 xin chao cac ban ! </h2> 
+{% endblock %}
+{% block content1 %}
+<div class="Information-1">
+    <div>
+        <h2 id = "Name_1"> Name : B C D </h2>
+        <p id = "P_1"> AGE  :  20 </p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1619307913331-9805bcd12188?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="Girl in a jacket" width="500" height="600">
+    <style>
+        .Information-1{
+            background-color: blueviolet;
+            width: 200px;
+            border-radius: 2px;
+        }
+        #Name_1{
+            margin-inline-start: 4px;
+            color: black ;
+        }
+        #P_1{
+            margin-inline-start: 4px;
+        }
+    </style>
+{% endblock %}
